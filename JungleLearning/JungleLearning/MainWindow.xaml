@@ -1,0 +1,20 @@
+﻿<Window x:Name="Home" x:Class="JungleLearning.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JungleLearning"
+        mc:Ignorable="d"
+        Title="JungleLearning Home" ResizeMode="NoResize" Height="450" Width="800" Background="#FF37B6F6" FontFamily="Yu Gothic UI Semibold">
+
+    <Grid>
+        <Button x:Name="btnEXIT" Content="Exit the Learning Jungle" HorizontalAlignment="Left" Margin="331,350,0,0" VerticalAlignment="Top" Width="155" Click="Button_Click" Background="#FFFD3B31" Height="51" FontSize="14" FontFamily="Yu Gothic UI"/>
+        <Button x:Name="btnHelp" Content="Help for&#xD;&#xA;Little Learners" HorizontalAlignment="Left" Margin="629,139,0,0" VerticalAlignment="Top" Width="100" Height="50" FontSize="14" FontFamily="Yu Gothic UI" Background="#FF35D461" Click="Button_Click_1"/>
+        <Button x:Name="btnInternet" Content="Explore the&#xD;&#xA;Safari Here!" HorizontalAlignment="Left" Margin="258,139,0,0" VerticalAlignment="Top" Width="100" Height="50" Background="#FF882FF6" Click="BtnInternet_Click" FontSize="14" FontFamily="Yu Gothic UI"/>
+        <Button x:Name="btnMaths" Content="Mammal&#xD;&#xA;Maths" HorizontalAlignment="Left" Margin="446,139,0,0" VerticalAlignment="Top" Width="100" Height="50" Background="#FFF9E104" FontSize="14" FontFamily="Yu Gothic UI" Click="BtnMaths_Click"/>
+        <Button x:Name="btnWriting" Content="Literate&#xD;&#xA;Little Lions" HorizontalAlignment="Left" Margin="64,139,0,0" VerticalAlignment="Top" Width="100" Height="50" Background="#FFF07C2C" FontFamily="Yu Gothic UI" FontSize="14" Click="BtnWriting_Click"/>
+        <Image Margin="677,304,0,0" Source="Media/6311dd8758963e5f4fd245527020cdc7.png" Stretch="Fill"/>
+        <Image Margin="77,24,78,295" Source="Media/jungleLearningLogo.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>

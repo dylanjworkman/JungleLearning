@@ -1,0 +1,13 @@
+﻿<Window x:Class="JungleLearning.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JungleLearning"
+        mc:Ignorable="d"
+        Title="Help Page" Height="450" Width="800" ResizeMode="NoResize" Background="#FF07C982" FontFamily="Yu Gothic" FontSize="16">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="494" Height="399"><Run Text="Stuck with your learning?"/><LineBreak/><Run/><LineBreak/><Run Text="- Ask a parent or guardian to help you if you are struggling."/><LineBreak/><Run Text=""/><LineBreak/><Run Text="- Take some time to rest or play before continuing."/><LineBreak/><Run/><LineBreak/><Run Text="- Let the teacher know and they could help you out."/><LineBreak/><Run/><LineBreak/><Run Text="- Stuck on a hard question? Use the internet browser found on the home page to look up help"/><Run Text=" "/><Run Text="and new ways to learn something."/><LineBreak/><Run/><LineBreak/><Run Text="- Struggling to exit a page? Click the big red X in the top right to close any page or window"/><Run Text="!"/></TextBlock>
+        <Image Margin="519,146,0,0" Source="Media/elephant.png" Stretch="None"/>
+    </Grid>
+</Window>
